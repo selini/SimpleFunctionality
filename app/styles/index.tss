@@ -54,9 +54,22 @@
    height:"auto"
 	
 }
-"#Exit": {
+"#Map": {
 	top:250,
-	backgroundColor:"#C5E6D8",
+	backgroundColor:"#EBACE4",
+	borderColor:"black",
+	borderRadius:7,
+	borderWidth:1,
+   font: {
+        fontSize: '15dp'    
+   },
+    width:150,
+   height:"auto"
+	
+}
+"#Exit": {
+	top:300,
+	backgroundColor:"#ACACEB",
 	borderColor:"black",
 	borderRadius:7,
 	borderWidth:1,

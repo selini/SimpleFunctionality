@@ -3,7 +3,8 @@
 		<Button id="Picture" onClick="doClickButtonPicture" title="picture" color="black">Picture</Button>
 		<Button id="Login" onClick="doClickButtonColor" title="login" color="black">Login</Button>
 		<Button id="Greet" onClick="doClickButtonMusic" title="greet" color="black">Greet</Button>
-		<Button id="Calentar" onClick="doClickButtonCalentar" title="Calentar" color="Calentar">Calentar</Button>
+		<Button id="Calentar" onClick="doClickButtonCalentar" title="Calentar" color="black">Calentar</Button>
+		<Button id="Map" onClick="doClickButtonMap" title="map" color="black">Map</Button>
 		<Button id="Exit" onClick="doClickButtonExit" title="exit" color="black">Exit</Button>
 	</Window>
 </Alloy>

@@ -1,3 +1,4 @@
+
 function doClickButtonPicture(e) {
 	'use strict';
 
@@ -32,7 +33,12 @@ function doClickButtonCalentar(e) {
 	win.getView().open();
 }
 
-
+function doClickButtonMap(e) {
+	'use strict';
+	var win = Alloy.createController("map");
+	$.index.close();
+	win.getView().open();
+}
 function doClickButtonExit(e) {
 	'use strict';
 var exitModule = require('com.pf.exit'); // loads the module

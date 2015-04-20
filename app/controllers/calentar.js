@@ -1,7 +1,7 @@
 function returnTo(e){
 	'use strict';
-	
-var win = Alloy.createController("index");
+	var widget,win;
+ win = Alloy.createController("index");
 	$.login.close();
 	win.getView().open();
 }
@@ -9,7 +9,6 @@ var moment = require('alloy/moment');
 var currentMonth = moment();
 
 function doPrevMonth() {
-    var widget;
 
     // Remove current month calendar.
     $.calendar.remove($.calendar.children[0]);
@@ -24,7 +23,6 @@ function doPrevMonth() {
 }
 
 function doNextMonth() {
-    var widget;
     $.calendar.remove($.calendar.children[0]);
 
     // Create next month calendar and add view
@@ -34,9 +32,5 @@ function doNextMonth() {
 
     Ti.API.info(widget.calendarMonth());
 }
-
-
-
-
 
 $.calentar.open();

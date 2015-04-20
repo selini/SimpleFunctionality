@@ -1,0 +1,19 @@
+
+".container" : {
+  
+}
+"#mapview" : {
+    region : {
+        latitude:40.63962,
+        longitude:22.94779,
+        latitudeDelta:0.01,
+        longitudeDelta:0.01
+    }
+},
+"#appcHQ" : {
+    latitude: 40.63962,
+    longitude: 22.94779,
+    title: "Near",
+    subtitle: "Mountain View, CA",
+    pincolor: Alloy.Globals.Map.ANNOTATION_RED
+}
