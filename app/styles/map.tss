@@ -1,8 +1,15 @@
 
-".container" : {
-  
+".container": {
+	backgroundColor:"#E866C5",
+},
+
+"#backButtonColor":{
+	top:10,
+	left:10
+	
 }
 "#mapview" : {
+	top:20,
     region : {
         latitude:40.63962,
         longitude:22.94779,

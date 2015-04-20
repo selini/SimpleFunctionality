@@ -5,5 +5,6 @@
             <!-- Prior to Alloy 1.4.0, create annotations in the controller -->
             <Annotation id='appcHQ' myid='1' />
             </View>
+            <Button id="backButtonColor" onClick="returnToI"> back</Button>
 	</Window>
 </Alloy>

@@ -25,4 +25,13 @@ win.add(mapview);
 mapview.addEventListener('click', function(evt) {
     Ti.API.info("Annotation " + evt.title + " clicked, id: " + evt.annotation.myid);
 });
+
+function returnToI(e){
+	'use strict';
+var win = Alloy.createController("index");
+	$.map.close();
+	win.getView().open();
+}
+
+
 win.open();
