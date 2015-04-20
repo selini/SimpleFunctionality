@@ -1,21 +1,58 @@
 ".container": {
-	backgroundColor:"#E866C5",
-	top:40
+	backgroundColor:"white",
 }
 
-"#backButtonColor":{
+"#backButtonPicture":{
 	top:10,
 	left:10
 	
 }
-'.control': {
-    width: Ti.UI.FILL,
-    height: Ti.UI.SIZE
-},
-'.left': {
-    left: 0
-},
-'.right': {
-    right: 0
+
+"#title":{
+	top:30
+	
+}
+"#username":{
+	top:80,
+	borderColor:"black",
+	borderRadius:7,
+	borderWidth:1,
+	width:180,
+	height:"auto",
+	hintText:"Username"
+	
+}
+
+"#password":{
+	top:110,
+	borderColor:"black",
+	borderRadius:7,
+	borderWidth:1,
+	width:180,
+	height:"auto",
+	hintText:"password"
+	
+}
+
+"#login":{
+	top:150,
+	borderColor:"green",
+	borderRadius:7,
+	borderWidth:1,
+	width:180,
+	height:"auto",
+	hintText:"password"
+	
+}
+"#cancel":{
+	top:150,
+	left:30,
+	borderColor:"red",
+	borderRadius:7,
+	borderWidth:1,
+	width:180,
+	height:"auto",
+	hintText:"password"
+	
 }
 

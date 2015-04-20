@@ -1,8 +1,8 @@
+	var widget,win;
 function returnTo(e){
 	'use strict';
-	var widget,win;
  win = Alloy.createController("index");
-	$.login.close();
+	$.calentar.close();
 	win.getView().open();
 }
 var moment = require('alloy/moment');

@@ -4,5 +4,3 @@ var win = Alloy.createController("index");
 	$.picture.close();
 	win.getView().open();
 }
-
-$.picture.open();

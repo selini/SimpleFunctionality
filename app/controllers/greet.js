@@ -10,4 +10,3 @@ function ShowName(e){
 	var t="hola ";
 	$.textA.setText(t+$.NameTextField.value);
 }
-$.greet.open();

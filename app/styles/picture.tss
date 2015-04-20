@@ -1,5 +1,5 @@
 ".container": {
-	backgroundColor:"#EEBD3D1",
+	backgroundColor:"#EEBD3D1"
 }
 
 "#backButtonPicture":{
@@ -8,7 +8,4 @@
 	
 }
 
-"#ModileIMG":{
-	top:50	
-}
 

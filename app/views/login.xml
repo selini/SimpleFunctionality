@@ -1,7 +1,10 @@
 <Alloy>
-	<Window class="container">
-		<Label>Here is a color</Label>
-		<Button id="backButtonColor" onClick="returnTo"> back</Button>
-		
+<Window class="container">
+		<Button id="backButtonPicture" onClick="returnToI1" >back</Button>
+		<Label id="title">Login</Label>	
+		<TextField id="username"> </TextField>
+		<TextField id="password"> </TextField>
+		<Button id="login" onClick="loginM">Login</Button>
+		<Button id="cancel" onClick="cancelM">cancel</Button>
 	</Window>
 </Alloy>

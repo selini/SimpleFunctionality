@@ -4,7 +4,7 @@
 }
 
 "#backButtonMusic":{
-	top:10,
+	bottom:10,
 	left:10
 	
 }
