@@ -1,0 +1,14 @@
+
+".container" : {
+  backgroundColor:"white",
+}
+
+"#backButtonMusic":{
+	top:10,
+	left:10
+	
+}
+"#cal":{
+	bottom:150
+}
+

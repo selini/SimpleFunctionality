@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<Label>Here is a color</Label>
+		<Button id="backButtonColor" onClick="returnTo"> back</Button>
+		
+	</Window>
+</Alloy>

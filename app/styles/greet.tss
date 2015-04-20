@@ -1,0 +1,27 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"#backButtonMusic":{
+	top:10,
+	left:10
+	
+}
+
+"#NameTextField":{
+	top:100,
+	width:300,
+	height:30,
+	borderColor:"black",
+	borderRadius:4
+}
+
+"#greetB":{
+	top:150,
+	width:80,
+	borderColor:"black",
+	borderRadius:4
+}
+"#textA":{
+	top:200
+}

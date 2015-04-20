@@ -1,0 +1,21 @@
+".container": {
+	backgroundColor:"#E866C5",
+	top:40
+}
+
+"#backButtonColor":{
+	top:10,
+	left:10
+	
+}
+'.control': {
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE
+},
+'.left': {
+    left: 0
+},
+'.right': {
+    right: 0
+}
+

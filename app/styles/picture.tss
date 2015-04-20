@@ -1,0 +1,14 @@
+".container": {
+	backgroundColor:"#EEBD3D1",
+}
+
+"#backButtonPicture":{
+	top:10,
+	left:10
+	
+}
+
+"#ModileIMG":{
+	top:50	
+}
+
