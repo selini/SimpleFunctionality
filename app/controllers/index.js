@@ -1,4 +1,3 @@
-
 function doClickButtonPicture(e) {
 	'use strict';
 
@@ -8,19 +7,19 @@ function doClickButtonPicture(e) {
 	
 
 }
-function doClickButtonColor(e) {
+function doClickButtonGreet(e) {
 	'use strict';
 
-	var win = Alloy.createController("login");
+	var win = Alloy.createController("greet");
 	$.index.close();
 	win.getView().open();
 	
 
 }
-function doClickButtonMusic(e) {
+function doClickButtonLogin(e) {
 	'use strict';
 
-	var win = Alloy.createController("greet");
+	var win = Alloy.createController("login");
 	$.index.close();
 	win.getView().open();
 	
@@ -36,6 +35,13 @@ function doClickButtonCalentar(e) {
 function doClickButtonMap(e) {
 	'use strict';
 	var win = Alloy.createController("map");
+	$.index.close();
+	win.getView().open();
+}
+
+function doClickButtonSQL(e) {
+	'use strict';
+	var win = Alloy.createController("sql");
 	$.index.close();
 	win.getView().open();
 }

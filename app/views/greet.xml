@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container">
-		<Button id="backButtonMusic" onClick="returnTo" >back</Button>
+		<Button id="backButton" onClick="returnTo" >back</Button>
 		<TextField id="NameTextField" >Give name</TextField>
 		<Label id="textA"></Label>
 		<Button id="greetB" onClick="ShowName">press me!</Button>

@@ -1,58 +1,48 @@
-".container": {
-	backgroundColor:"white",
+".container" : {
+  backgroundColor:"white"
 }
-
-"#backButtonPicture":{
+"#backButton":{
 	top:10,
 	left:10
-	
 }
-
 "#title":{
-	top:30
-	
+	top:50
 }
 "#username":{
-	top:80,
+	top:100,
 	borderColor:"black",
 	borderRadius:7,
 	borderWidth:1,
-	width:180,
 	height:"auto",
-	hintText:"Username"
+	width:200
 	
 }
-
 "#password":{
-	top:110,
+	top:130,
 	borderColor:"black",
 	borderRadius:7,
 	borderWidth:1,
-	width:180,
 	height:"auto",
-	hintText:"password"
+	width:200
 	
 }
-
-"#login":{
-	top:150,
-	borderColor:"green",
+"#loginB":{
+	top:160,
+	left:95,
+	borderColor:"black",
 	borderRadius:7,
 	borderWidth:1,
-	width:180,
 	height:"auto",
-	hintText:"password"
+	width:62
 	
 }
-"#cancel":{
-	top:150,
-	left:30,
-	borderColor:"red",
+"#cancelB":{
+	top:160,
+	right:95,
+	borderColor:"black",
 	borderRadius:7,
 	borderWidth:1,
-	width:180,
 	height:"auto",
-	hintText:"password"
+	width:62
 	
 }
-

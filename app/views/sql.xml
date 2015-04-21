@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Button id="backButtonsql" onClick="returnTo"> back</Button>
+		<Button id="executeCMD" onClick="executeCMD">execute</Button>	
+	</Window>
+</Alloy>

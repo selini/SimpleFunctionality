@@ -2,7 +2,7 @@
 	backgroundColor:"white"
 }
 
-"#backButtonMusic":{
+"#backButton":{
 	top:10,
 	left:10
 	

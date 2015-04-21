@@ -1,15 +1,16 @@
-function returnToI1(e){
+function returnTo(e){
 	'use strict';
 var win = Alloy.createController("index");
 	$.login.close();
 	win.getView().open();
 }
-function loginM(){
+function loginM(e){
 	'use strict';
+alert("log in");
 }
-function cancelM(){
+function cancelM(e){
 	'use strict';
-
+var win = Alloy.createController("index");
+	$.login.close();
+	win.getView().open();
 }
-
-

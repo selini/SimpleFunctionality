@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container">
 		<Button id="backButtonPicture" onClick="returnToI" >back</Button>
-		<ImageView id="ModileIMG" image="images/workMaterial_icon.png"></ImageView>
+		<ImageView image="images/workMaterial_icon.png"></ImageView>
 	</Window>
 </Alloy>
