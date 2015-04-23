@@ -6,5 +6,6 @@
 		<TextField id="password"></TextField>
 		<Button id="loginB" onClick="loginM">Login</Button>
 		<Button id="cancelB" onClick="cancelM">Cancel</Button>
+		<Label id="signup" onClick="GoToSignUP">Sign Up</Label>
 	</Window>
 </Alloy>

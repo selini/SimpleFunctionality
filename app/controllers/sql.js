@@ -1,23 +1,24 @@
-var db,importName,importContinent,importTempF,importTempC,dbConditionId,cityId,cityName,cityContinent;
+var db,id,name,test;
 function returnTo(e){
 	'use strict';
 var win = Alloy.createController("index");
 	$.sql.close();
 	win.getView().open();
 }
-db = Ti.Database.install('/mydata/test.sqlite', 'weatherDB1');
+
+db = Ti.Database.install('/mydata/test.sqlite', 'testDB1');
 function executeCMD(e){
 	'use strict';
-var cityWeatherRS = db.execute('SELECT * FROM cities');
-db.execute('INSERT INTO cities (id,city) VALUES (9,"sallonika")');
-cityWeatherRS=db.execute('SELECT * FROM cities ');
-while (cityWeatherRS.isValidRow())
+var test = db.execute('SELECT * FROM cities');
+db.execute('INSERT INTO cities (id,name) VALUES (10,"athens")');
+test=db.execute('SELECT * FROM cities ');
+while (test.isValidRow())
 {
-  cityName = cityWeatherRS.fieldByName('id');
-  cityContinent = cityWeatherRS.fieldByName('city');
-  Ti.API.info(' ' + cityName + ' ' + cityContinent);
-  cityWeatherRS.next();
+  id = test.fieldByName('id');
+ name =test.fieldByName('name');
+ Ti.API.info(' ' + id + ' ' + name);
+  test.next();
 }
-cityWeatherRS.close();
+test.close();
 }
 

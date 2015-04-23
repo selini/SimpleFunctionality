@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<Button id="backButton" onClick="returnTo">back</Button>
+		<TextField id="usernameSU" ></TextField>
+		<TextField id="passwordSU"></TextField>
+		<TextField id="emailSU"></TextField>
+		<Button id="signUpSuB" onClick="SignUpM" >SignUp</Button>
+		<Button id="cancelSUB" onClick="cancelSUM">Cancel</Button>
+	</Window>
+</Alloy>
