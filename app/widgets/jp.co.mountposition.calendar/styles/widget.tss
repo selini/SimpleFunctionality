@@ -1,17 +1,18 @@
 '#view': {
-   
+   top:10
 },
 '#container': {
+	top:10
 },
 '#days': {
     backgroundImage: WPATH('/images/bg.png'),
     backgroundRepeat: true,
     layout: 'horizontal',
-    top: 0,
+    top: 10,
     height: '22dp'
 },
 '#dates': {
     layout: 'vertical',
-    top: '22dp',
+    top: '50dp',
     height: Ti.UI.FILL
 }

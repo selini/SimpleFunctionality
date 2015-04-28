@@ -4,7 +4,8 @@ var win,
     password,
     email,
     xhr,
-    url;
+    url,
+    authstr;
 function returnTo(e) {
     'use strict';
     win = Alloy.createController("index");
@@ -17,13 +18,33 @@ function SignUpM(e) {
     username = $.usernameSU.value;
     password = $.passwordSU.value;
     email = $.emailSU.value;
-    
-    xhr = Ti.Network.HTTPClient();
-    url = "http://.php";
-    xhr.open("POST", url);
-    var authstr = 'Basic ' + Titanium.Utils.base64encode(username + ':' + password + ':' + email);
-    xhr.setRequestHeader('Authorization', authstr);
-    xhr.send();
+
+    url = "http://selini.eu.pn/main.php";
+    var client = Ti.Network.createHTTPClient({
+        // function called when the response data is available
+        onload : function(e) {
+            Ti.API.info("Received text: " + this.responseText);
+            alert(this.responseText);
+                win = Alloy.createController("index");
+                $.signUp.close();
+                win.getView().open();
+        },
+        // function called when an error occurs, including a timeout
+        onerror : function(e) {
+            Ti.API.debug(e.error);
+            alert('error');
+        },
+        timeout : 5000 // in milliseconds
+    });
+    // Prepare the connection.
+    client.open("POST", url);
+   
+  client.send({
+       email: email,
+       username: username,
+       password: password
+ 
+   });
 }
 
 function cancelSUM(e) {

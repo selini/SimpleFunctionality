@@ -10,7 +10,7 @@ db = Ti.Database.install('/mydata/test.sqlite', 'testDB1');
 function executeCMD(e){
 	'use strict';
 var test = db.execute('SELECT * FROM cities');
-db.execute('INSERT INTO cities (id,name) VALUES (10,"athens")');
+db.execute('INSERT INTO cities (id,name) VALUES (11,"patra")');
 test=db.execute('SELECT * FROM cities ');
 while (test.isValidRow())
 {

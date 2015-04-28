@@ -2,7 +2,8 @@
 	backgroundColor:"#C5D6E3"
 }
 "#login": {
-	top:50,
+	top:100,
+	right:50,
 	backgroundColor:"#BECCB8",
 	borderColor:"black",
 	borderRadius:7,
@@ -10,12 +11,13 @@
    font: {
         fontSize: '15dp'    
    },
-   width:150,
+   width:100,
    height:"auto"
 	
 }
 "#Picture": {
 	top:100,
+	left:50,
 	backgroundColor:"#9B81DE",
 	borderColor:"black",
 	borderRadius:7,
@@ -23,12 +25,13 @@
    font: {
         fontSize: '15dp'    
    },
-   width:150,
+   width:100,
    height:"auto"
 	
 }
 "#Greet": {
-	top:150,
+	top:200,
+	right:50,
 	backgroundColor:"#E6B98C",
 	borderColor:"black",
 	borderRadius:7,
@@ -36,13 +39,14 @@
    font: {
         fontSize: '15dp'    
    },
-    width:150,
+    width:100,
    height:"auto"
 	
 }
 
 "#Calentar": {
 	top:200,
+	left:50,
 	backgroundColor:"#C5E6D8",
 	borderColor:"black",
 	borderRadius:7,
@@ -50,12 +54,13 @@
    font: {
         fontSize: '15dp'    
    },
-    width:150,
+    width:100,
    height:"auto"
 	
 }
 "#Map": {
-	top:250,
+	top:300,
+	right:50,
 	backgroundColor:"#EBACE4",
 	borderColor:"black",
 	borderRadius:7,
@@ -63,12 +68,13 @@
    font: {
         fontSize: '15dp'    
    },
-    width:150,
+    width:100,
    height:"auto"
 	
 }
 "#sql": {
 	top:300,
+	left:50,
 	backgroundColor:"#ACADB5",
 	borderColor:"black",
 	borderRadius:7,
@@ -76,12 +82,12 @@
    font: {
         fontSize: '15dp'    
    },
-    width:150,
+    width:100,
    height:"auto"
 	
 }
 "#Exit": {
-	top:350,
+	bottom:20,
 	backgroundColor:"#ACACEB",
 	borderColor:"black",
 	borderRadius:7,
