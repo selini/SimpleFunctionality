@@ -45,6 +45,13 @@ function doClickButtonSQL(e) {
 	$.index.close();
 	win.getView().open();
 }
+
+function doClickButtonArray(e) {
+	'use strict';
+	var win = Alloy.createController("ShowUsers");
+	$.index.close();
+	win.getView().open();
+}
 function doClickButtonExit(e) {
 	'use strict';
 var exitModule = require('com.pf.exit'); // loads the module
