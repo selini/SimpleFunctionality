@@ -1,0 +1,19 @@
+<Alloy>
+	<Window class="container">
+		<Button id="backButton" onClick="returnTo">back</Button>
+		 <TableView id="users" height="200">
+            <TableViewSection id="user1" headerTitle="User1">
+                <TableViewRow id="usernameU1"/>
+                <TableViewRow id="passwordU1"/>
+            </TableViewSection>
+            <TableViewSection id="user2" headerTitle="User2">
+                <TableViewRow id="usernameU2"/>
+                <TableViewRow id="passwordU2"/>
+            </TableViewSection>
+            <TableViewSection id="user3" headerTitle="User">
+                <TableViewRow id="usernameU3"/>
+                <TableViewRow id="passwordU3"/>
+            </TableViewSection>
+        </TableView>
+	</Window>
+</Alloy>

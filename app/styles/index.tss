@@ -80,8 +80,21 @@
    height:"auto"
 	
 }
-"#Exit": {
+"#array": {
 	top:350,
+	backgroundColor:"#ACADB5",
+	borderColor:"black",
+	borderRadius:7,
+	borderWidth:1,
+   font: {
+        fontSize: '15dp'    
+   },
+    width:150,
+   height:"auto"
+	
+}
+"#Exit": {
+	top:400,
 	backgroundColor:"#ACACEB",
 	borderColor:"black",
 	borderRadius:7,
