@@ -1,0 +1,37 @@
+".container" : {
+  backgroundColor:"white"
+}
+
+"#backButtonParsing":{
+	top:10,
+	left:10
+	
+}
+"#title":{
+	top:60
+	
+	
+}
+"#lXML":{
+	top:100,
+	left:10
+	
+	
+}
+
+"#valuex":{
+	top:100,
+	right:70
+	
+}
+"#lJSON":{
+	top:120,
+	left:10
+	
+}
+"#valuej":{
+	top:120,
+	right:70
+	
+}
+

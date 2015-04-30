@@ -6,7 +6,8 @@
 		<Button id="Calentar" onClick="doClickButtonCalentar" title="Calentar" color="black">Calentar</Button>
 		<Button id="Map" onClick="doClickButtonMap" title="map" color="black">Map</Button>
 		<Button id="sql" onClick="doClickButtonSQL" title="sql" color="black">SQL</Button>
-		<Button id="array" onClick="doClickButtonArray" title="Array" color="black">Array</Button>
+		<Button id="array" onClick="doClickButtonArray" title="Array" color="black">Array-Users</Button>
+		<Button id="parsing" onClick="doClickButtonParsing" title="parse" color="black">Parsing</Button>
 		<Button id="Exit" onClick="doClickButtonExit" title="exit" color="black">Exit</Button>
 	</Window>
 </Alloy>

@@ -52,6 +52,13 @@ function doClickButtonArray(e) {
 	$.index.close();
 	win.getView().open();
 }
+
+function doClickButtonParsing(e) {
+	'use strict';
+	var win = Alloy.createController("parsing");
+	$.index.close();
+	win.getView().open();
+}
 function doClickButtonExit(e) {
 	'use strict';
 var exitModule = require('com.pf.exit'); // loads the module
