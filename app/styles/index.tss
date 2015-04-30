@@ -88,20 +88,35 @@
 }
 
 "#array": {
-	top:350,
-	backgroundColor:"#ACADB5",
+	top:400,
+	right:50,
+	backgroundColor:"#54B89A",
 	borderColor:"black",
 	borderRadius:7,
 	borderWidth:1,
    font: {
         fontSize: '15dp'    
    },
-    width:150,
+    width:100,
+   height:"auto"
+	
+}
+"#parsing": {
+	top:400,
+	left:50,
+	backgroundColor:"#AFC2DB",
+	borderColor:"black",
+	borderRadius:7,
+	borderWidth:1,
+   font: {
+        fontSize: '15dp'    
+   },
+    width:100,
    height:"auto"
 	
 }
 "#Exit": {
-	top:400,
+	top:500,
 	backgroundColor:"#ACACEB",
 	borderColor:"black",
 	borderRadius:7,

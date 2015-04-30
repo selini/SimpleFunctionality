@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<Button id="backButtonParsing" onClick="returnToI">back</Button>
+		<Label id="title">Parsing</Label>
+		<Label id="lXML">XML</Label>
+		<Label id="lJSON">JSON</Label>
+		<Label id="valuex"></Label>
+		<Label id="valuej"></Label>
+	</Window>
+</Alloy>
