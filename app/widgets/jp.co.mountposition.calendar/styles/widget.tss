@@ -14,5 +14,4 @@
 '#dates': {
     layout: 'vertical',
     top: '50dp',
-    height: Ti.UI.FILL
 }

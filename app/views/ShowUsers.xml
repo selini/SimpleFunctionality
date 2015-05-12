@@ -10,10 +10,6 @@
                 <TableViewRow id="usernameU2"/>
                 <TableViewRow id="passwordU2"/>
             </TableViewSection>
-            <TableViewSection id="user3" headerTitle="User">
-                <TableViewRow id="usernameU3"/>
-                <TableViewRow id="passwordU3"/>
-            </TableViewSection>
         </TableView>
 	</Window>
 </Alloy>

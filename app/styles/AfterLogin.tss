@@ -1,0 +1,17 @@
+
+".container": {
+	backgroundColor: "white"
+}
+"#backButton":{
+	top:10,
+	left:10
+}
+"#logOut":{
+
+	top: 150
+}
+
+"#greet":{
+
+	top: 100
+}

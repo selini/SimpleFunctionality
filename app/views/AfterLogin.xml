@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+	<Button id="backButton" onClick="returnTo">back</Button>
+	<Label id="greet">Hello!!!!!!</Label>
+	<Button id="logOut" onClick="LogOut">LogOut</Button>
+	</Window>
+</Alloy>

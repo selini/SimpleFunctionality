@@ -1,9 +1,6 @@
 <Alloy>
 	<Window class="container">
-		<View>
-			<Button id="backButtonCalentar"
+			<Button id="backButton"
 				onClick="returnTo">back</Button>
-			<Widget id="cal" src="jp.co.mountposition.calendar" />
-		</View>
 	</Window>
 </Alloy>

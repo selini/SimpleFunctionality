@@ -1,4 +1,10 @@
 
+".container":{
+	
+	backgroundColor:"white"
+	
+	
+}
 "#backButton":{
 	top:10,
 	left:10
@@ -6,7 +12,8 @@
 }
 
 "#users":{
-	backgroundColor:"white"
+	backgroundColor:"white",
+	top:50
 	
 	
 	
@@ -48,21 +55,3 @@
 	
 	
 },
-"#user3":{
-	
-	
-	
-	
-},
-"#usernameU3":{
-	
-	
-	
-	
-},
-"#passwordU3":{
-	
-	
-	
-	
-}

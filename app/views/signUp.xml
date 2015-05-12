@@ -1,5 +1,5 @@
 <Alloy>
-	<Window>
+	<Window backgroundColor="white">
 		<Button id="backButton" onClick="returnTo">back</Button>
 		<TextField id="usernameSU" ></TextField>
 		<TextField id="passwordSU"></TextField>

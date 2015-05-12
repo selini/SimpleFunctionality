@@ -3,12 +3,9 @@
   backgroundColor:"white",
 }
 
-"#backButtonCalentar":{
-	bottom:10,
+"#backButton":{
+	top:10,
 	left:10
-	
-}
-"#cal":{
 	
 }
 

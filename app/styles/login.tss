@@ -48,6 +48,11 @@
 	width:62
 	
 }
+"#error":{
+	top:300,
+	color:"red",
+	width:"auto"
+}
 "#signup":{
 	top:230,
 	color:"blue"
