@@ -1,5 +1,14 @@
 <Alloy>
 	<Window class="container">
+<<<<<<< HEAD
 		<Button id="backButton" onClick="returnToI">back</Button>
+=======
+		<Button id="backButtonParsing" onClick="returnToI">back</Button>
+		<Label id="title">Parsing</Label>
+		<Label id="lXML">XML</Label>
+		<Label id="lJSON">JSON</Label>
+		<Label id="valuex"></Label>
+		<Label id="valuej"></Label>
+>>>>>>> 788e7483f2203e6e730e3f1ffafed2f7a45400e1
 	</Window>
 </Alloy>

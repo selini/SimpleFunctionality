@@ -2,13 +2,47 @@
   backgroundColor:"white"
 }
 
+<<<<<<< HEAD
 
 "#backButton":{
+=======
+"#backButtonParsing":{
+>>>>>>> 788e7483f2203e6e730e3f1ffafed2f7a45400e1
 	top:10,
 	left:10
 	
 }
+<<<<<<< HEAD
 
 
 
+=======
+"#title":{
+	top:60
+	
+	
+}
+"#lXML":{
+	top:100,
+	left:10
+	
+	
+}
+
+"#valuex":{
+	top:100,
+	right:70
+	
+}
+"#lJSON":{
+	top:120,
+	left:10
+	
+}
+"#valuej":{
+	top:120,
+	right:70
+	
+}
+>>>>>>> 788e7483f2203e6e730e3f1ffafed2f7a45400e1
 
